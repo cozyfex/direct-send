@@ -1,0 +1,25 @@
+{
+  "name": "felixkang/direct-send",
+  "description": "directsend.co.kr API",
+  "keywords": [
+    "package",
+    "directsend",
+    "email",
+    "sms"
+  ],
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "CozyFex\\DirectSend\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Felix D.H Kang",
+      "email": "cozyfex@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.4"
+  }
+}
